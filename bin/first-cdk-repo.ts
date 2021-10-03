@@ -5,6 +5,7 @@ import { FirstCdkRepoStack } from '../lib/first-cdk-repo-stack';
 
 const app = new cdk.App();
 new FirstCdkRepoStack(app, 'FirstCdkRepoStack', {
+  stackName : 'FirstCdkRepoStack'
   /* If you don't specify 'env', this stack will be environment-agnostic.
    * Account/Region-dependent features and context lookups will not work,
    * but a single synthesized template can be deployed anywhere. */
